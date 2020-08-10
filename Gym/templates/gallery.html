@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GHC | Gallery</title>
-
+    <meta name="google-site-verification" content="zpvUlVbZHt6KiRfRL1_HG8CUTJM7-w1nHiFfbxuhzqU" />
+    
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -26,6 +27,18 @@
     <link rel="stylesheet" href="{% static 'Gym/magnific-popup.css' %}" type="text/css">
     <link rel="stylesheet" href="{% static 'Gym/slicknav.min.css' %}" type="text/css">
     <link rel="stylesheet" href="{% static 'Gym/style.css' %}" type="text/css">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DL0CHZYW5Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DL0CHZYW5Z');
+</script>
+
 </head>
 
 <body>
@@ -36,7 +49,9 @@
 
 
     <div style="height: 20px;width: 100%; background-color: yellow;">
+        <div class="container-fluid">
         <center><p style="color: blue">Note : Work in progress , Some features are not working.</p></center>
+        </div>
     </div>
 
 
@@ -52,11 +67,13 @@
                 </a>
             </div>
             <div class="top-social">
-                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="https://myaccount.google.com/?tab=kk&authuser=1"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.instagram.com/gawalihealthclub/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCOxU_8cJqz6Vd4CYmfppfug?view_as=subscriber"><i class="fa fa-youtube-play"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                
+                
             </div>
             <div class="container">
                 <div class="nav-menu">
@@ -109,9 +126,9 @@
                     <div class="gallery-controls">
                         <ul>
                             <li class="active" data-filter="*">All GALLERY</li>
-                            <li data-filter=".crossfit">Crossfit</li>
+                            <!-- <li data-filter=".crossfit">Crossfit</li>
                             <li data-filter=".workout">Workout</li>
-                            <li data-filter=".gym">GYM</li>
+                            <li data-filter=".gym">GYM</li> -->
                         </ul>
                     </div>
                 </div>
@@ -131,113 +148,113 @@
                 </div> -->
                 <div class="col-lg-4 col-sm-6 mix crossfit workout">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-1.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img1.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <a href="{% static 'Gym/gallery/img1.jpg' %}" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout <h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix crossfit workout gym">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-2.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img2.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-2.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <a href="{% static 'Gym/gallery/img2.jpg' %}" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout</h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix workout">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-3.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img14.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-3.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <a href="{% static 'Gym/gallery/img14.jpg' %}" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix gym">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-4.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img4.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-4.jpg" class="image-popup"><i
+                                <a href="{% static 'Gym/gallery/img4.jpg' %}" class="image-popup"><i
                                         class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix crossfit">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-5.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img9.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <a href="{% static 'Gym/gallery/img9.jpg' %}" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix gym crossfit">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-6.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img11.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-6.jpg" class="image-popup"><i
+                                <a href="{% static 'Gym/gallery/img11.jpg' %}" class="image-popup"><i
                                         class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix workout">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-7.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img7.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-7.jpg" class="image-popup"><i
+                                <a href="{% static 'Gym/gallery/img7.jpg' %}" class="image-popup"><i
                                         class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix crossfit gym">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-8.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img13.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-8.jpg" class="image-popup"><i
+                                <a href="{% static 'Gym/gallery/img13.jpg' %}" class="image-popup"><i
                                         class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mix crossfit gym workout">
                     <div class="gallery-item">
-                        <img src="{% static 'Gym/gallery/gallery-9.jpg' %}" alt="">
+                        <img src="{% static 'Gym/gallery/img3.jpg' %}" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-9.jpg" class="image-popup"><i
+                                <a href="{% static 'Gym/gallery/img3.jpg' %}" class="image-popup"><i
                                         class="fa fa-search-plus"></i></a>
-                                <a href="#"><i class="fa fa-chain"></i></a>
-                                <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
+                                <!-- <a href="#"><i class="fa fa-chain"></i></a> -->
+                                <h6>Time to Try a Bodyweight Workout </h6>
                             </div>
                         </div>
                     </div>
@@ -262,7 +279,7 @@
         </div>
     </section> -->
     <!-- Cta Section End -->
-    <br>
+    <div style="width: 100%;height: 1px;background-color: red"></div>
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -277,11 +294,11 @@
                             in television advertising continues.</p> -->
                         <div class="social-links">
                             <h6>Follow us</h6>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://myaccount.google.com/?tab=kk&authuser=1"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.instagram.com/gawalihealthclub/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCOxU_8cJqz6Vd4CYmfppfug?view_as=subscriber"><i class="fa fa-youtube-play"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>

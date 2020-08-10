@@ -130,6 +130,6 @@ USE_TZ = True
 
 
 
-# print(STATIC_URL)
-# print()
+print(STATIC_URL)
+print()
 # print(STATICFILES_DIRS)

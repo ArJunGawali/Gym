@@ -352,10 +352,13 @@ ol {
 
 .logo {
 	float: left;
+	/*margin-right: 0;*/
+	
 }
 
 .logo a {
 	display: inline-block;
+	vertical-align: center;
 }
 
 .nav-menu {

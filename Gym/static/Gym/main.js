@@ -151,3 +151,14 @@ function gohome(){
     var ele = document.getElementById('home');
     ele.scrollIntoView();
     }
+
+
+function showdel(){
+    var div = document.getElementById('del');
+    div.innerHTML = '<center><button class="btn btn-danger mb-3">DELETE</button></center>';
+}
+
+
+
+// $('#myModal').on('shown.bs.modal', function () {
+//   $('#myInput').trigger('focus')

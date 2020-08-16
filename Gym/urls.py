@@ -22,9 +22,11 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-    path('gallery/',views.gallery),
-    path('about/',views.about),
+    path('gallery/',views.gallery,name='gallery'),
+    # path('about/',views.about),
+    # path('sample/',views.sample),
+    path('delete/',views.deleteImg)
 
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

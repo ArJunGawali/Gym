@@ -2003,6 +2003,12 @@ ol {
 	visibility: visible;
 }
 
+/*.delt{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}*/
+
 .gallery-item:before {
 	position: absolute;
 	left: 0;
